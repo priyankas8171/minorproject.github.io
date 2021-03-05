@@ -1,0 +1,173 @@
+   <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+   padding: 0 16px;
+}
+span.price{
+  float: right;
+  color: grey;
+}
+
+   .col-25 {
+    margin-bottom: 20px;
+    border-bottom:1px  black;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  border-bottom: 1px  solid black;
+  margin-top: 40px;
+}
+
+.topnav a { 
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+.topnav a:hover {
+  background-color: #ddd;
+  
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.topnav-right{
+  float: right;
+}
+.sal{
+  text-align: center;
+     box-shadow:  10px 10px 10px 5px grey;
+}
+
+.h{
+  height: 600px;
+  width: 600px;
+  border:1px solid black;
+  border-radius: 30px;
+  margin-left: 450px;
+  background-color: white;
+}
+.next{
+  position: absolute;
+  float: right;
+  margin-left: 450px;
+  margin-top: -15px;
+}
+.button{
+  text-align: center;
+
+
+}
+.btn{
+  background-color: tomato;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+}
+.a{
+  border-top: 1px solid black;
+  margin-top: 10px;
+}
+.con{
+  background-color: transparent;
+  width: 520px;
+  border: 5px solid green;
+  padding: 4px;
+  margin: 20px;
+  border-radius: 5px;
+
+
+}
+.app{
+  float: right;
+  margin-top: -40px;
+  color: red;
+  text-decoration-color: transparent;
+
+}
+  input.largerCheckbox { 
+            width: 20px; 
+          font-size: 20px;
+            height: 20px; 
+            margin-top: 10px;
+} 
+.dis{
+  border-top: 1px solid black;
+}
+.g{
+  border-top: 1px solid black;
+}
+.r{
+  float: right;
+  margin-top: -40px;
+  text-decoration-color: transparent;
+  color: tomato;
+  margin-right: 5px;
+}
+.m{
+  margin-left: 20px;
+}
+.rs{
+  text-decoration-color: transparent;
+  color: tomato;
+}
+</style>
+<body>
+  <div style="background-image: url('back.png.jpg');">
+    <div class="h">
+<div class="topnav">
+<div class="topnav-right">
+  <a href="#" class="nex">x</a>
+</div>
+<div class="sal"><h1>Salon At Home</h1></div>
+<div class="topnav-left"><a href="#" class="previous round">&#8249;</a></div>
+</div>
+ <div class="col-25">
+    <div class="container">
+      <h2 style="text-align: center;"><b>Offers,Promos and Gift cards</b></h2>
+      <div class="con"> 
+       <h4>Enter Coupon Code</h4>
+       <a href="#" class="app">Apply</a>
+      </div>
+    </div>
+  </div>
+  <div class="g">
+    <h3>Gift Cards</h3>
+    <a href="#" class="r">Register a new gift card</a>
+  </div>
+  <div class="dis">
+    <input type="checkbox" id="checkBox2" class="largerCheckbox" name="checkBox2" > <label for="checkBox2"><b>15% off upto Rs.250 | Use code<a href="#" class="rs"> ABC123</a></b> </label>
+    <p class="m">15% off upto Rs.250 on min. order value of RS.499</p>
+  </div><div class="dis">
+    <input type="checkbox" id="checkBox2" class="largerCheckbox" name="checkBox2" >
+     <label for="checkBox2"><b>15% off upto Rs.250  | Use code <a href="#" class="rs"> ABC123</a></b> </label>
+    <p class="m">15% off upto Rs.250 on min. order value of RS.499</p>
+  </div>
+  <div class="button">
+     <input type="submit" value="Proceed to payment" class="btn">
+  </div>
+</div>
+</body>
+</head>
+</html>

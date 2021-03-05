@@ -1,0 +1,18 @@
+<form name="check"  onsubmit="return myform()">
+NAME<input type="text" name="na">
+ROLL<input type="text" name="ro">
+<input type="submit" name="sub">
+</form>
+<script>
+function myform(){
+	var a=document.check.na.value;
+	var b=document.check.ro.value;
+	if(a==b){
+	alert('good');
+	return false;
+	}else{
+	alert(' very bad');
+	return false;
+	}
+}
+</script>
